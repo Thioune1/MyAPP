@@ -1,0 +1,6 @@
+2020-11-05 12:03:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "QUOTES" already exists; SQL statement:
+CREATE TABLE Quotes (
+    id varchar(9) PRIMARY KEY,
+    content varchar(300)
+) [42101-193]
