@@ -8,6 +8,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 /**
  *
  * @author ahm3dhany
+ *
  */
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
@@ -27,6 +28,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .csrf().disable();
                 
     }
+
     
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
